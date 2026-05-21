@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MS Dhoni was one of cricket's greatest captains. But was he a team lead or a team leader? Exploring the difference between using talent and grooming the next generation." />
+  <meta name="keywords" content="MS Dhoni captaincy, team lead vs team leader, cricket leadership, IPL captaincy, CSK, grooming leaders, India cricket" />
+  <meta name="author" content="Your Name" />
+  <meta property="og:title" content="Dhoni Was a Great Lead — But Was He a Leader? The Difference That Cricket Forgot" />
+  <meta property="og:description" content="Dhoni won trophies, read the game brilliantly, and used every player's strength to perfection. But the day he stepped back, the cracks showed. Here's why." />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="your-featured-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Dhoni Was a Great Lead — But Was He a Leader? | Team Lead vs Team Leader</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1209;
+      --ink-soft: #3d3020;
+      --ink-muted: #7a6a52;
+      --accent: #c0392b;
+      --accent-warm: #e67e22;
+      --paper: #faf7f2;
+      --paper-mid: #f0ebe0;
+      --rule: #d6ccb8;
+      --max-w: 740px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Source Serif 4', Georgia, serif;
+      background-color: var(--paper);
+      color: var(--ink);
+      line-height: 1.85;
+      font-size: 1.05rem;
+      font-weight: 300;
+    }
+
+    /* ── HEADER ── */
+    header {
+      border-bottom: 3px solid var(--ink);
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+      background: var(--paper-mid);
+    }
+
+    .category-tag {
+      display: inline-block;
+      font-family: 'Source Serif 4', serif;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1.5px solid var(--accent);
+      padding: 0.3rem 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 900;
+      line-height: 1.18;
+      max-width: 760px;
+      margin: 0 auto 1.2rem;
+      color: var(--ink);
+      letter-spacing: -0.01em;
+    }
+
+    .deck {
+      font-size: clamp(1rem, 2.2vw, 1.2rem);
+      font-weight: 300;
+      font-style: italic;
+      color: var(--ink-soft);
+      max-width: 600px;
+      margin: 0 auto 1.8rem;
+      line-height: 1.6;
+    }
+
+    .byline {
+      font-size: 0.82rem;
+      letter-spacing: 0.05em;
+      color: var(--ink-muted);
+      text-transform: uppercase;
+    }
+
+    .byline strong { color: var(--ink); font-weight: 600; }
+
+    /* ── FEATURED IMAGE ── */
+    .featured-image-wrap {
+      width: 100%;
+      max-height: 480px;
+      overflow: hidden;
+      border-bottom: 2px solid var(--rule);
+    }
+
+    .featured-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .img-caption {
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--ink-muted);
+      font-style: italic;
+      padding: 0.6rem 1rem;
+      background: var(--paper-mid);
+      border-bottom: 1px solid var(--rule);
+    }
+
+    /* ── ARTICLE BODY ── */
+    main {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    /* Drop cap */
+    article > p:first-of-type::first-letter {
+      font-family: 'Playfair Display', serif;
+      font-size: 4.5rem;
+      font-weight: 900;
+      float: left;
+      line-height: 0.8;
+      margin: 0.12em 0.1em 0 0;
+      color: var(--accent);
+    }
+
+    article p {
+      margin-bottom: 1.5rem;
+      font-size: 1.05rem;
+      color: var(--ink-soft);
+    }
+
+    article h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.4rem, 3vw, 1.9rem);
+      font-weight: 700;
+      color: var(--ink);
+      margin: 3rem 0 1rem;
+      line-height: 1.25;
+    }
+
+    article h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 2rem 0 0.75rem;
+    }
+
+    /* Pull quote */
+    blockquote {
+      border-left: 4px solid var(--accent);
+      margin: 2.5rem 0;
+      padding: 1.2rem 1.5rem 1.2rem 2rem;
+      background: var(--paper-mid);
+    }
+
+    blockquote p {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.25rem;
+      font-style: italic;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    blockquote cite {
+      display: block;
+      margin-top: 0.6rem;
+      font-size: 0.8rem;
+      font-style: normal;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+    }
+
+    /* Key concept box */
+    .concept-box {
+      border: 2px solid var(--ink);
+      padding: 1.8rem 2rem;
+      margin: 3rem 0;
+      background: var(--paper-mid);
+      position: relative;
+    }
+
+    .concept-box::before {
+      content: "Key Insight";
+      position: absolute;
+      top: -0.65rem;
+      left: 1.5rem;
+      background: var(--paper-mid);
+      padding: 0 0.5rem;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .concept-box p { margin: 0; color: var(--ink); font-weight: 400; }
+
+    /* Comparison table */
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2.5rem 0;
+      font-size: 0.95rem;
+    }
+
+    .comparison-table th {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 0.9rem 1.2rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      text-align: left;
+    }
+
+    .comparison-table th:first-child { background: var(--accent); }
+
+    .comparison-table td {
+      padding: 0.85rem 1.2rem;
+      border-bottom: 1px solid var(--rule);
+      vertical-align: top;
+      color: var(--ink-soft);
+    }
+
+    .comparison-table tr:nth-child(even) td { background: var(--paper-mid); }
+
+    .comparison-table td:first-child {
+      font-weight: 600;
+      color: var(--ink);
+      width: 30%;
+    }
+
+    /* Section divider */
+    .section-rule {
+      border: none;
+      border-top: 2px solid var(--rule);
+      margin: 3rem auto;
+      width: 60%;
+    }
+
+    /* Tags */
+    .tags-section {
+      margin-top: 3.5rem;
+      padding-top: 1.5rem;
+      border-top: 2px solid var(--rule);
+    }
+
+    .tags-section p {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--ink-muted);
+      margin-bottom: 0.6rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--paper-mid);
+      border: 1px solid var(--rule);
+      padding: 0.3rem 0.75rem;
+      font-size: 0.78rem;
+      margin: 0.2rem;
+      color: var(--ink-soft);
+      text-decoration: none;
+    }
+
+    .tag:hover { border-color: var(--ink); color: var(--ink); }
+
+    footer {
+      background: var(--ink);
+      color: var(--paper-mid);
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+    }
+
+    @media (max-width: 600px) {
+      .comparison-table { font-size: 0.85rem; }
+      .comparison-table th, .comparison-table td { padding: 0.7rem 0.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ HEADER ═══ -->
+  <header>
+    <span class="category-tag">Cricket &amp; Leadership</span>
+    <h1>Dhoni Was a Great Lead — But Was He Really a Leader?</h1>
+    <p class="deck">He read the game like no one else, won everything that mattered, and made every player around him look brilliant. So why did it all fall apart the moment he stepped back?</p>
+    <p class="byline">By <strong>Your Name</strong> &nbsp;·&nbsp; May 2026 &nbsp;·&nbsp; 7 min read</p>
+  </header>
+
+  <!-- ═══ FEATURED IMAGE PLACEHOLDER ═══ -->
+  <!-- Replace src with your generated image -->
+  <!--
+  <figure class="featured-image-wrap">
+    <img src="your-featured-image.jpg" alt="MS Dhoni leading the Indian cricket team on the field, symbolizing team leadership vs team lead" width="1200" height="630" loading="eager" />
+    <figcaption class="img-caption">The question isn't whether Dhoni was great. It's what kind of great he was.</figcaption>
+  </figure>
+  -->
+
+  <!-- ═══ ARTICLE ═══ -->
+  <main>
+    <article>
+
+      <p>Everyone loves Dhoni. And honestly, why wouldn't they? The man led India to a World T20 in 2007, a Champions Trophy in 2013, and brought home the ODI World Cup in 2011 after a 28-year wait. With Chennai Super Kings, he built one of the most consistent franchises in IPL history. The calm, the finishing, the wicket-keeping — every part of the package was special.</p>
+
+      <p>But here's the thing nobody really talks about. All of that success? It happened with Dhoni in the dugout, on the field, calling the shots. The moment he wasn't there, something broke. And it wasn't just a bad season or two. It was a pattern. Indian cricket, and CSK for a while, seemed to forget how to function without him in charge.</p>
+
+      <p>That gap — the one that shows up after a great captain leaves — tells you something important. Not about the players who struggled, but about what kind of leader Dhoni actually was.</p>
+
+      <h2>The Captaincy Was Genuinely Brilliant</h2>
+
+      <p>Let's be clear: there is nothing fake about Dhoni's record. He didn't just win titles — he won them in pressure situations, in formats that required completely different kinds of thinking. He got the most out of players who hadn't been consistent anywhere else. Suresh Raina, Harbhajan Singh, Ravindra Jadeja in his early days — Dhoni knew exactly when to use them and how much rope to give them.</p>
+
+      <p>His man-management was quiet but effective. He rarely embarrassed a player publicly. He backed people when the crowd didn't. He had an instinct for reading situations in a game that very few captains have ever matched.</p>
+
+      <blockquote>
+        <p>"He didn't just use his players — he placed them perfectly, like the right piece in the right spot on a chess board. The problem was, only he knew where every piece belonged."</p>
+        <cite>A pattern worth noticing</cite>
+      </blockquote>
+
+      <p>And that's exactly where the story gets complicated.</p>
+
+      <h2>What Happened When He Stepped Back</h2>
+
+      <p>When Dhoni handed over the Test captaincy to Virat Kohli in 2014, the transition was manageable because Kohli had a strong personality and came into it ready to take ownership. But in white-ball cricket and in IPL, every time Dhoni took a step back or missed a season, the cracks became visible almost immediately.</p>
+
+      <p>In the 2022 IPL, CSK had a rough season. The pieces were there — the talent, the experience, the franchise's reputation. But without Dhoni actively steering, the team struggled to find its rhythm. Players who had been match-winners under his captaincy looked lost when asked to make independent decisions under pressure.</p>
+
+      <p>In international cricket, India's middle order took years to figure out finishing games in the way Dhoni used to. Not because they lacked skill, but because they had always had him as the answer. Nobody had been properly developed to think and act the way he did when the game was on the line.</p>
+
+      <div class="concept-box">
+        <p>This is what separates a team <em>lead</em> from a team <em>leader</em>. A lead makes the team win. A leader makes the team capable of winning without them.</p>
+      </div>
+
+      <h2>Lead vs Leader — The Difference That Really Matters</h2>
+
+      <p>These two words sound similar and people use them interchangeably all the time. But they describe two completely different approaches to being in charge of people.</p>
+
+      <p>A <strong>team lead</strong> is someone who takes responsibility for outcomes. They pull the group together, assign roles smartly, spot talent, and drive results. When they are in the room, everything works. The team performs above its natural ceiling because the lead is so good at extracting and directing potential.</p>
+
+      <p>A <strong>team leader</strong> does all of that — but with one extra thing in mind at all times. They are constantly asking: what happens after me? They don't just use the talent around them; they develop it. They share their thinking. They put people in situations where they have to figure things out, not situations where they can always fall back on the lead's instinct.</p>
+
+      <table class="comparison-table" aria-label="Comparison between Team Lead and Team Leader">
+        <thead>
+          <tr>
+            <th scope="col">Aspect</th>
+            <th scope="col">Team Lead</th>
+            <th scope="col">Team Leader</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Primary focus</td>
+            <td>Winning right now</td>
+            <td>Winning now and building for later</td>
+          </tr>
+          <tr>
+            <td>Uses talent by</td>
+            <td>Placing people in the right role</td>
+            <td>Developing people to own their role</td>
+          </tr>
+          <tr>
+            <td>Decision-making</td>
+            <td>Centralized — the lead decides</td>
+            <td>Distributed — the team learns to decide</td>
+          </tr>
+          <tr>
+            <td>Success metric</td>
+            <td>Results during their tenure</td>
+            <td>Results during and after their tenure</td>
+          </tr>
+          <tr>
+            <td>After they leave</td>
+            <td>The gap is felt immediately</td>
+            <td>The system continues because it was built to</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Dhoni fits the first column almost perfectly. And that's not an insult — it's actually a rare and valuable thing. Most people never even reach that level. But the fact remains: the teams he led were built around him, not built to outlast him.</p>
+
+      <h2>Nobody Blamed Him, But That's Also the Problem</h2>
+
+      <p>One of the reasons this conversation rarely happens is that Dhoni's style was so effective during his time that nobody questioned it. Why would you? When the team is winning trophies, the method doesn't get put under a microscope.</p>
+
+      <p>But behind the scenes, something was missing. Players were being selected and managed brilliantly, but they weren't being groomed to lead. There were no real second-in-command figures who were being slowly handed responsibility and taught to think the way Dhoni thought. The vice-captains existed on paper. The development of leadership mindsets within the squad — that happened elsewhere, almost by accident, not by design.</p>
+
+      <p>Compare this to how other great captains have operated. Clive Lloyd built West Indies, but he also handed over a generation of cricketers who knew what winning culture felt like from the inside. Steve Waugh was ruthless, but he actively pushed younger players into high-pressure situations early, letting them fail and learn under him rather than shielding them from those moments.</p>
+
+      <hr class="section-rule" />
+
+      <h2>The Lesson Goes Way Beyond Cricket</h2>
+
+      <p>This isn't really a cricket story. Cricket is just the example that makes it easy to see clearly.</p>
+
+      <p>In any team — a startup, a corporate department, a school project group — you will come across people who are genuinely excellent at leading. They get results. Everyone performs better under them. And when they move on, things fall apart in a way that surprises everyone, including themselves.</p>
+
+      <p>The mistake isn't that they were too good. The mistake is that they never made their own thinking visible. They never said, here is how I am reading this situation, here is why I am making this call, here is what I want you to watch for and handle next time. They kept the knowledge in their head because it was faster and easier than transferring it.</p>
+
+      <p>A true leader, almost by instinct, is always building the person standing next to them. Not because they are worried about leaving, but because they understand that the whole point of being in charge is to make the people around you stronger, not more dependent.</p>
+
+      <h2>What This Means for Dhoni's Legacy</h2>
+
+      <p>None of this takes away from what Dhoni achieved. His captaincy record is one of the cleanest in the history of the sport, and that doesn't change.</p>
+
+      <p>But if you want the full picture — the honest one — then you have to look at what came after. The struggles in the IPL when he wasn't playing. The years India spent trying to solve the finishing problem. The way his presence was always described as irreplaceable, rather than his system being described as sustainable.</p>
+
+      <p>Those things point to a leader who maximized his era brilliantly but didn't quite build the next one. And that's the part of the Dhoni story that doesn't get told enough.</p>
+
+      <blockquote>
+        <p>"The real test of a leader isn't what the team does when they are there. It's what the team does when they are gone."</p>
+        <cite>The standard every captain should be measured by</cite>
+      </blockquote>
+
+      <p>Dhoni led. No one disputes that. But grooming leaders requires a different kind of patience — the kind that doesn't show up in the trophy cabinet. It shows up years later, quietly, in the people who go on to lead because someone once made them feel like they were capable of it.</p>
+
+      <p>That's the difference between a lead and a leader. And it's a difference that Indian cricket is still working through, long after Dhoni has walked off the field for the last time.</p>
+
+    </article>
+
+    <!-- ═══ TAGS ═══ -->
+    <section class="tags-section" aria-label="Article tags">
+      <p>Topics</p>
+      <a class="tag" href="#">MS Dhoni</a>
+      <a class="tag" href="#">Cricket Leadership</a>
+      <a class="tag" href="#">Team Lead vs Leader</a>
+      <a class="tag" href="#">IPL</a>
+      <a class="tag" href="#">CSK</a>
+      <a class="tag" href="#">Management</a>
+      <a class="tag" href="#">India Cricket</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Written by Your Name &nbsp;·&nbsp; Originally published on LinkedIn &amp; Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
